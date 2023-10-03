@@ -1,0 +1,14 @@
+#Database settings
+spring:
+  datasource:
+    url: jdbc:db2://10.128.120.117:50000/ATLANTIS
+    username: MVA3
+    password: laclos
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.DB2Dialect
+#JPA Settings
+  jpa.hibernate.ddl_auto: create
+
